@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/ublue-os/nvidia/compare/v1.0.0...v1.1.0) (2023-03-13)
+
+
+### Features
+
+* Break up build process into separate jobs to improve caching in matrix strategy ([#63](https://github.com/ublue-os/nvidia/issues/63)) ([581f1fa](https://github.com/ublue-os/nvidia/commit/581f1fa78f3ff59d3405e2ab79e98960fa3d3c1e))
+* download RPM metadata in build stage to lower bandwidth usage in final stage ([#65](https://github.com/ublue-os/nvidia/issues/65)) ([95d9c13](https://github.com/ublue-os/nvidia/commit/95d9c132c2f8908d7b5e4fcf7362219286502bb4))
+
+
+### Bug Fixes
+
+* Ensure /tmp has right permissions set ([#67](https://github.com/ublue-os/nvidia/issues/67)) ([d743ca0](https://github.com/ublue-os/nvidia/commit/d743ca0a0afd3572e2af83c1d075398d17db9c33))
+* image name and description variable interpolation ([#62](https://github.com/ublue-os/nvidia/issues/62)) ([cf4e489](https://github.com/ublue-os/nvidia/commit/cf4e489c60871cc1bcf3fcd0f797bfbe22bd5731))
+
 ## 1.0.0 (2023-03-07)
 
 
